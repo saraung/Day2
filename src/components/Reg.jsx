@@ -1,9 +1,12 @@
-import { Button, TextField } from '@mui/material'
-import React from 'react'
+import { Button, TextField, Typography } from '@mui/material'
+import React, { useState } from 'react'
 
-const Reg = () => {
+const Reg = (props) => {
+  var[val,setVal]=useState()
+ 
   return (
     <div class="box2">
+        <Typography>{props.data.name}</Typography>
         <h1>Registration Form</h1>
         <TextField type ="text" variant="outlined" placeholder="name"></TextField>
         <br />

@@ -12,13 +12,14 @@ const Counter = () => {
     }
 
   return (
-    <div style={{marginLeft:"45%"}}>
+    <div style={{marginLeft:"45%",marginTop:"10%"}}>
         <br />
         <Button variant="contained" color='success' onClick={incrementNum}>+</Button>
         <Typography variant='h1'>{num}</Typography>
-        <Button variant="contained" color="success" onClick={decrementNum}>-</Button>
+        <Button variant="contained" color="error" onClick={decrementNum}>-</Button>
     </div>
   )
 }
 
 export default Counter
+

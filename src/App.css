@@ -63,5 +63,13 @@
 #regsubmitbutton
 {
   margin-left: 20%;
-  /* margin-right: 30%; */
+  margin-right: 30%;
 }
+
+#formloginbtn
+{
+  margin-left: 10%;
+  margin-right: 30%;
+  background-color: firebrick;
+}
+
